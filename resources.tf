@@ -8,7 +8,7 @@ resource "google_compute_network" "our_development_network" {
 //   name          = "devsubnet"
 //   network       = "${google_compute_network.our_development_network.self_link}"
 //   region        = "us-central1"
-}
+// }
 
 resource "aws_vpc" "environment-example-two" {
   cidr_block           = "10.0.0.0/16"
