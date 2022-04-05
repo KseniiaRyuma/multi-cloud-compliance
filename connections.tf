@@ -4,12 +4,6 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 3.0"
     }
-
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "=3.0.2"
-    }
-
     
   }
 }
@@ -23,8 +17,3 @@ provider "google" {
   project     = "igneous-axiom-259004"
   region      = "us-central1"
 }
-
-provider "azurerm" {
-  features {}
-}
-
