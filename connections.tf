@@ -14,6 +14,6 @@ provider "aws" {
 }
 
 provider "google" {
-  project     = "igneous-axiom-259004"
+  project     = "tfc-demo"
   region      = "us-central1"
 }
